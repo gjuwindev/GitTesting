@@ -6,7 +6,7 @@ Svećenik odmah zausti: želim prestati biti svećenik.
 
 Ribica: Ništa lakše, i uzme mu habit i bibliju i baci ih u obližnje grmlje. Sljedeća želja?
 
-Svećenik: Želim nista ne raditi do kraja života i imati puno novaca.
+Svećenik: Želim ništa ne raditi do kraja života i imati puno novaca.
 
 Ribica ga bijesno pogleda, ode do grmlja, donese bibliju i habit i dajući mu ih, kaže: Ma koga ti zajebavas?
 
