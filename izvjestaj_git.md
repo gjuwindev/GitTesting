@@ -14,3 +14,10 @@ a na glas sam rekla
 
 **I BI TAKO**
 
+## U GITU
+
+Naš zajednički **online repozitorij** nalazi se na: [https://github.com/gjuwindev/GitTesting/](https://github.com/gjuwindev/GitTesting/ "adresa online rep-a")
+
+Napravio ga je Gjuro, a onda je dodao mene kao *kontribjutora*.
+
+
