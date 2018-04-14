@@ -29,6 +29,8 @@ Naš zajednički **online repozitorij** nalazi se [ovdje][1].
 
 Napravio ga je Gjuro, a onda je dodao mene kao *kontribjutora*.
 
+sada tamo imamo sljedeće dokumente *(ovo bi trebala biti tablica i u code-u se lijepo vidi, a ovdje ne radi)*
+
 | Naziv dokumenta | poruka uz commit |
 |-----------|:-----------:|-----------:|  
 |LICENSE | Initial commit |  |  
