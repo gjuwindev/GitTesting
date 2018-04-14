@@ -1,15 +1,6 @@
 # GitTesting
 
-dodadoh ivanu kao kolaboratoricu
+hajmo pisati popis viceva
 
-dodaj redak-dva, ivana...
-
-oooooooooooooooooooooooo...
-
-ivana changed something....
-
-obrisao dva retka
-
-dodala ovaj redak lokalno
-
-jos jedan redak lokalno
+1. vic_01.md Svećenik i zlatna ribica
+1. vic_02.md Šef i zlatna ribica
