@@ -1,6 +1,9 @@
 # IZVJEŠTAJ O GIT ISKUSTVU
 
+#
+#
 ## O GITU
+
 
 Ništa nisam o Gitu pročitala nego mi je sve ispričao Gjuro:
 
@@ -14,10 +17,51 @@ a na glas sam rekla
 
 **I BI TAKO**
 
+**~~K R A J~~**
+
+#
+
+#
+
 ## U GITU
 
-Naš zajednički **online repozitorij** nalazi se na: [https://github.com/gjuwindev/GitTesting/](https://github.com/gjuwindev/GitTesting/ "adresa online rep-a")
+Naš zajednički **online repozitorij** nalazi se [ovdje][1].
 
 Napravio ga je Gjuro, a onda je dodao mene kao *kontribjutora*.
 
+| Naziv dokumenta | poruka uz commit |
+|-----------|:-----------:|-----------:|  
+|LICENSE | Initial commit |  |  
+|README.md| Update README.md |  | 
+| izvjestaj_git.md | izvjestaj_v2 | Cell B3 | 
+| vic_01.md | novi vic i mali ispravak u vic_01 | Cell B3 | 
+| vic_02.md | Upisao drugi vic i doradio prvi | Cell B3 | 
+| vic_01.md|Ispravio poneko slovo | Cell B3 | 
 
+prije nego što smo se krenuli *gitati*, radili smo na ovome:
+
+``` vb
+Console.WriteLine("Hello, World!");
+```
+
+i kao što je 1 \+ 1 = 2, sada smo vec Git i Markdown majstori :)
+
+**mala git kuharica:**
+
+-	napravi folder na D:
+-	git init
+-	git remote add origin [https://github.com/gjuwindev/GitTesting/][1]
+-	git pull origin master
+    -	povuce sve fajlove s online rep
+-	izmjeni nesto u fajlu
+*	save fajl
+*	git stage (+)
+*	git commit -m \<message>
+-	git push -u origin master
+
+
+<!--
+ovo je popis referenci - linkova
+-->
+
+[1]: https://github.com/gjuwindev/GitTesting/ "https://github.com/gjuwindev/GitTesting/"
