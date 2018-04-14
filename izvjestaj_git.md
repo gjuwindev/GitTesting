@@ -29,7 +29,7 @@ Naš zajednički **online repozitorij** nalazi se [ovdje][1].
 
 Napravio ga je Gjuro, a onda je dodao mene kao *kontribjutora*.
 
-| Naziv dokumenta | poruka uz commit |
+| Naziv fajla | poruka uz commit |
 |-----------|:-----------:|-----------:|  
 |LICENSE | Initial commit |  |  
 |README.md| Update README.md |  | 
