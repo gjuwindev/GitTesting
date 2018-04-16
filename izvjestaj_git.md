@@ -4,7 +4,7 @@
 #
 ## O GITU
 
-provokacija
+provokacija ;)
 
 Ništa nisam o Gitu pročitala nego mi je sve ispričao Gjuro:
 
