@@ -4,6 +4,7 @@
 #
 ## O GITU
 
+provokacija
 
 Ništa nisam o Gitu pročitala nego mi je sve ispričao Gjuro:
 
@@ -29,13 +30,9 @@ Naš zajednički **online repozitorij** nalazi se [ovdje][1].
 
 Napravio ga je Gjuro, a onda je dodao mene kao *kontribjutora*.
 
-<<<<<<< HEAD
 sada tamo imamo sljedeće dokumente *(ovo bi trebala biti tablica i u code-u se lijepo vidi, a ovdje ne radi)*
 
 | Naziv dokumenta | poruka uz commit |
-=======
-| Naziv fajla | poruka uz commit |
->>>>>>> f81ecdc61d02911e295a4002a608c31b957b0a07
 |-----------|:-----------:|-----------:|  
 |LICENSE | Initial commit |  |  
 |README.md| Update README.md |  | 
@@ -46,8 +43,7 @@ sada tamo imamo sljedeće dokumente *(ovo bi trebala biti tablica i u code-u se 
 
 prije nego što smo se krenuli *gitati*, radili smo na ovome:
 
-``` vb
-Console.WriteLine("Hello, World!");
+``` vb  qa
 ```
 
 i kao što je 1 \+ 1 = 2, sada smo vec Git i Markdown majstori :)
