@@ -4,9 +4,9 @@
 #
 ## O GITU
 
-provokacija ;)  ivana
+provokacija ;)  ivana *
 
-provokacija ;)  gjuro
+provokacija ;)  gjuro *
 
 Ništa nisam o Gitu pročitala nego mi je sve ispričao Gjuro:
 
