@@ -4,11 +4,8 @@
 #
 ## O GITU
 
-<<<<<<< HEAD
 provokacija ;)  ivana
-=======
 provokacija ;)  gjuro
->>>>>>> 416d50dd107a67d4d7b49c8153145c46ee28bfbe
 
 Ništa nisam o Gitu pročitala nego mi je sve ispričao Gjuro:
 
