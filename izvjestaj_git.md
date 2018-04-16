@@ -12,7 +12,7 @@ Ništa nisam o Gitu pročitala nego mi je sve ispričao Gjuro:
 
 *naravno da bih* pomislila sam u sebi
 
-a na glas sam rekla
+a na glas sam rekla :)
 
 >DAAAAAAAAA
 
