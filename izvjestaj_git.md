@@ -8,11 +8,8 @@ provokacija ;)  ivana *-
 
 provokacija ;)  gjuro *-
 
-<<<<<<< HEAD
 x
-=======
 y
->>>>>>> refs/remotes/origin/master
 
 provokacija ;)  ivana **
 
