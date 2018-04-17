@@ -34,9 +34,9 @@ Nested list:
 * Abacus
 * absolute
 * Bananas
-1. bitter
-1. bupkis
-3. burper
+   1. bitter
+   1. bupkis
+   3. burper
 * Cunning
   
   
@@ -48,6 +48,7 @@ A [link](http://example.com).
 
 Inline <abbr title="abbreviations">abr</abbr> are supported.
 
+~~~~
 Table:
 | Syntax | Description |
 | ----------- | ----------- |
@@ -57,7 +58,7 @@ Table:
 Here's a sentence with a footnote.[^1]
 
 [^1]: This is the footnote.
-
+~~~~
 ~~strikethrough~~
 
 This is <sup>superscript</sup>
@@ -72,7 +73,10 @@ Text can be formatted in many <span style="color:yellow">colors</span>, <span st
 console.writeline("hello world")
 ```
 
-`This is code`
+`This is code  
+and it can be  
+like this`
+
 This is `ineline` code
 
 this is Syntax highlighting
@@ -85,8 +89,8 @@ this is Syntax highlighting
 ~~~~
 
 odličan primjer web stranice napisane u markdownu:  
-`kod` je na: https://daringfireball.net/projects/markdown/syntax.text  
-`HTML` je na: https://daringfireball.net/projects/markdown/syntax
+`kod` je na: [https://daringfireball.net/projects/markdown/syntax.text] https://daringfireball.net/projects/markdown/syntax.text  
+`HTML` je na: [https://daringfireball.net/projects/markdown/syntax] https://daringfireball.net/projects/markdown/syntax
 
 
 
