@@ -1,4 +1,4 @@
-
+~~~~
 Everything below is block code - just delete four preceeding ~ and all text will be markdown formatted.  
 Add four ~ again and everything will be displayes as it is written.
 
@@ -48,17 +48,16 @@ A [link](http://example.com).
 
 Inline <abbr title="abbreviations">abr</abbr> are supported.
 
-~~~~
-Table:
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+    Table:
+    | Syntax | Description |
+    | ----------- | ----------- |
+    | Header | Title |
+    | Paragraph | Text |
   
-Here's a sentence with a footnote.[^1]
+    Here's a sentence with a footnote.[^1]
 
-[^1]: This is the footnote.
-~~~~
+    [^1]: This is the footnote.
+
 ~~strikethrough~~
 
 This is <sup>superscript</sup>
