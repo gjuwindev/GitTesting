@@ -86,7 +86,6 @@ this is Syntax highlighting
 }
 .sometext{font-family: Courier; margin: 0 auto}
 ```
-~~~~
 
 odličan primjer web stranice napisane u markdownu:  
 `kod` je na: [https://daringfireball.net/projects/markdown/syntax.text] https://daringfireball.net/projects/markdown/syntax.text  
