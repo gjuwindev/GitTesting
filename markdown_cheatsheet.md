@@ -88,8 +88,8 @@ this is Syntax highlighting
 ```
 
 odličan primjer web stranice napisane u markdownu:  
-`kod` je na: [https://daringfireball.net/projects/markdown/syntax.text] https://daringfireball.net/projects/markdown/syntax.text  
-`HTML` je na: [https://daringfireball.net/projects/markdown/syntax] https://daringfireball.net/projects/markdown/syntax
+`kod` je na: https://daringfireball.net/projects/markdown/syntax.text  
+`HTML` je na: https://daringfireball.net/projects/markdown/syntax
 
 
 
