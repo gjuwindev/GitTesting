@@ -1,4 +1,4 @@
-
+~~~~
 Everything below is block code - just delete four preceeding ~ and all text will be markdown formatted.  
 Add four ~ again and everything will be displayes as it is written.
 
