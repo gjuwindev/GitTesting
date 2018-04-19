@@ -7,7 +7,7 @@ _ODABRANA OPCIJA (19.4.2018. Tanja)_
 URL: `nastavniprogram/predmet/akademskagodina/{akademskaGodina}`  
 HTTP metoda: `GET`  
 Opis: Vraća popis svih predmeta koji se nalaze u nastavnom programu u akademskoj godini. 
-Reprezentacija: `application/vnd.isvu.predmetuakgod.xml-v1.0+xml`
+Reprezentacija: `application/vnd.isvu.predmetuakgod.xml-v1.0+xml`  
 Rezultat: 
 ```{xml}
 <predmeti akademskaGodina="2007">
