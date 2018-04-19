@@ -20,7 +20,7 @@ Rezultat:
 **ROKOVI ZA PREDMET**    
 URL: `nastavniplan/rok/predmet/{sifraPredmetaUIsvu}/akademskagodina/{akademskaGodina}`  
 HTTP metoda: `GET`  
-Opis: Vraća popis ispitnih rokova u akademskoj godini za predmet. Popis sadrži datume i vrste ispitnih rokova.
+Opis: Vraća popis ispitnih rokova u akademskoj godini za predmet. Popis sadrži datume i vrste ispitnih rokova.  
 Reprezentacija: `application/vnd.isvu.ispitniroklista.xml-v1.1+xml`
 
 **ZAKLJUCAVANJE ROKA**  
