@@ -150,23 +150,47 @@ Rezultat:
 </predmetUAkademskojGodini>
 ```
 
-### 5. AKO NEMA EVIDENTIRANOG NOSITELJA - ocjenjivac je procelnik
-
-- ustrojstvena jedinica koja izvodi kolegij 
-- popis procelnika (oznakaOsobe) po godinama za ustrojstvene jedinice (mimo REST API-ja)
-
-**DETALJNI PODACI O PREDMETU**
-
-URL: `nastavniprogram/predmet/sifra/{sifraPredmetaUIsvu}`
-
-HTTP metoda: `GET`
-
-Opis: Vraća detaljne podatke o predmetu.
-
-Reprezentacija: `application/vnd.isvu.predmet.xml-v1.1+xml`
-
-Rezultat:
+>### 5. AKO NEMA EVIDENTIRANOG NOSITELJA - ocjenjivac je procelnik
+>
+>- popis procelnika (oznakaOsobe) po godinama za ustrojstvene jedinice (mimo REST API-ja)
+>- ustrojstvena jedinica koja izvodi kolegij 
+>
+>**DETALJNI PODACI O PREDMETU**
+>
+>URL: `nastavniprogram/predmet/sifra/{sifraPredmetaUIsvu}`
+>
+>HTTP metoda: `GET`
+>
+>Opis: Vraća detaljne podatke o predmetu.
+>
+>Reprezentacija: `application/vnd.isvu.predmet.xml-v1.1+xml`
+>
+>Rezultat:
 `<ustrojstvenaJedinicaKojojPripada sifra="100073">`
+>
+>- preuzeti podatak o osobi koja je procelnik za tu ustrojstvenu jedinicu u akademskoj godini (istoj onoj za koju smo dohvatili podatke o izvodjacima) - za to moramo imati posebnu tablicu:  
+|UstrJedinica|AkadGodina|Procelnik|  
+>- evidentirati procelnika kao nositelja
+
+**IZVOĐAC**
+
+URL: `nastavniprogram/predmet/akademskagodina/{akademskaGodina}/sifra/{sifraPredmeta}/semestar/{semestar}/izvedba/{izvedbaPredmeta}/komponenta/{komponentaPredmeta}/vrstanastave/{vrstaNastave}/izvodjac`
+
+HTTP metoda: `POST`
+
+Opis: Evidencija **izvođača** za predmet u akademskoj godini.
+
+Reprezentacija: `application/vnd.isvu.predakgodizvodjac.xml-v1.0+xml`
+
+
+URL: `nastavniprogram/predmet/akademskagodina/{akademskaGodina}/sifra/{sifraPredmeta}/semestar/{semestar}/izvedba/{izvedbaPredmeta}/komponenta/{komponentaPredmeta}/vrstanastave/{vrstaNastave}/izvodjac/oznaka/{oznakaOsoba}`
+
+HTTP metoda: `PUT`
+
+Opis: Promjena rednog broja **nositelja** za evidentiranog izvođača na predmetu u akademskoj godini. 
+
+Reprezentacija: `application/vnd.isvu.predakgodnositelj.xml-v1.0+xml`
+
 
 
 ### 6. ZAKLJUCAVANJE SVIH NEZAKLJUCANIH ROKOVA
