@@ -65,16 +65,19 @@ Reprezentacija: application/vnd.isvu.rezultatusmenilista.xml-v1.1+xml
 
 **DETALJNI PODACI O REZULTATU USMENOG ISPITA ZA STUDENTA**  
 
+>URL: `ispit/usmeni/{sifraPredmetaUISVU}/{godinaRok}/{mjesecRok}/{danRok}/{jmbag}`
+>
+>HTTP metoda: `GET`
+>
+>Opis: Vraća detaljne podatke o rezultatima usmenog ispita za nekog studenta. Uključuje podatke o studentu, ocjenjivaču, datum ispita i ocjenu. Omogućen dohvat ispita s ocjenama 'P' i 'N'.
+>
+>Reprezentacija: application/vnd.isvu.rezultatusmeni.xml-v1.1+xml  
+
+
 URL: `ispit/usmeni/{sifraPredmetaUISVU}/{godinaRok}/{mjesecRok}/{danRok}/{jmbag}`
-HTTP metoda: `GET`
 
-Opis: Vraća detaljne podatke o rezultatima usmenog ispita za nekog studenta. Uključuje podatke o studentu, ocjenjivaču, datum ispita i ocjenu. Omogućen dohvat ispita s ocjenama 'P' i 'N'.
-
-Reprezentacija: application/vnd.isvu.rezultatusmeni.xml-v1.1+xml
-
-
-URL: `ispit/usmeni/{sifraPredmetaUISVU}/{godinaRok}/{mjesecRok}/{danRok}/{jmbag}`
 HTTP metoda: `PUT`
+
 Opis: Omogućava izmjenu podataka o rezultatu usmenog ispita. Moguće je mijenjati oznaku ocjenjivača ispita, ocjenu (0, 1, 2, 3, 4, 5, P, N) i datum ispita.
 
 Reprezentacija: application/vnd.isvu.rezultatusmeni.xml-v1.1+xml
@@ -102,22 +105,53 @@ XML za unos:
 
 ### EVIDENTIRATI ZA SVE STUDENTE KOJI NEMAJU KONACNU OCJENU
     1.	ocjena = 0 (nula)
-    2.	datum ispita = datum roka
+    2.	datum ispita = datum roka (obavezno tocka iza godine!)
     3.	ocjenjivac = nositelj
 
 
+### DOHVAT PODATAKA O PREDMETU U AKADEMSKOJ GODINI > OZNAKA NOSITELJA
 
+ -  ako NEMA NOSITELJA
 
-### dohvat podataka o predmetu u akademskoj godini > oznaka nositelja
+**PREDMET U AKADEMSKOJ GODINI**
 
- -  ako NEMA NOSITELJA?
+URL: `nastavniprogram/predmet/akademskagodina/{akademskaGodina}/sifra/{sifraPredmeta}`
 
+HTTP metoda: `GET`
 
+Opis: Vraća podatke o predmetu u akademskoj godini: opis predmeta, literatura, **izvođač/nositelj** (`<izvodjac redniBrojNositelja="1">` i `<oznaka>HK012</oznaka>`) na predmetu za vrstu nastave, izvedba grupe za izvođača/nositelja u postocima, jezik.
 
+Reprezentacija: `application/vnd.isvu.predakgod.xml-v1.1+xml`
 
-### zakljucavanje svih nezakljucanih rokova
+Rezultat:
+```{xml}
+<predmetUAkademskojGodini sifra="118160" akademskaGodina="2017" sifraPredmeta="118160">
+  <naziv>1968. - Uzroci i posljedice</naziv>
+  <akademskaGodina>2017</akademskaGodina>
+  <opisPredmeta />
+  <literature />
+  <izvodjaciZaPredmetUAkademskojGodini>
+    <semestar redniBrojUAkademskojGodini="2">
+      <izvedba redniBroj="1">
+        <komponenta redniBroj="1">
+          <vrstaNastave oznakaVrstaNastave="P">
+            <izvodjaci>
+              <izvodjac redniBrojNositelja="1">
+                <oznaka>HK012</oznaka>
+                <ime>Hrvoje</ime>
+                <prezime>Klasić</prezime>
+                <grupe />
+              </izvodjac>
+            </izvodjaci>
+          </vrstaNastave>
+        </komponenta>
+      </izvedba>
+    </semestar>
+  </izvodjaciZaPredmetUAkademskojGodini>
+  <jezici />
+</predmetUAkademskojGodini>
+```
 
+### ZAKLJUCAVANJE SVIH NEZAKLJUCANIH ROKOVA
 
-
-
-### izvjestaj/popis rokova koji nisu mogli biti zakljucani
+### IZVJESTAJ/POPIS ROKOVA KOJI NISU MOGLI BITI ZAKLJUCANI
