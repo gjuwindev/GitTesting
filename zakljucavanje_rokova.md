@@ -150,27 +150,27 @@ Rezultat:
 </predmetUAkademskojGodini>
 ```
 
->### 5. AKO NEMA EVIDENTIRANOG NOSITELJA - ocjenjivac je procelnik
->
->- popis procelnika (oznakaOsobe) po godinama za ustrojstvene jedinice (mimo REST API-ja)
->- ustrojstvena jedinica koja izvodi kolegij 
->
->**DETALJNI PODACI O PREDMETU**
->
->URL: `nastavniprogram/predmet/sifra/{sifraPredmetaUIsvu}`
->
->HTTP metoda: `GET`
->
->Opis: Vraća detaljne podatke o predmetu.
->
->Reprezentacija: `application/vnd.isvu.predmet.xml-v1.1+xml`
->
->Rezultat:
+### 5. AKO NEMA EVIDENTIRANOG NOSITELJA - ocjenjivac je procelnik
+
+- popis procelnika (oznakaOsobe) po godinama za ustrojstvene jedinice (mimo REST API-ja)
+- ustrojstvena jedinica koja izvodi kolegij 
+
+**DETALJNI PODACI O PREDMETU**
+
+URL: `nastavniprogram/predmet/sifra/{sifraPredmetaUIsvu}`
+
+HTTP metoda: `GET`
+
+Opis: Vraća detaljne podatke o predmetu.
+
+Reprezentacija: `application/vnd.isvu.predmet.xml-v1.1+xml`
+
+Rezultat:
 `<ustrojstvenaJedinicaKojojPripada sifra="100073">`
->
->- preuzeti podatak o osobi koja je procelnik za tu ustrojstvenu jedinicu u akademskoj godini (istoj onoj za koju smo dohvatili podatke o izvodjacima) - za to moramo imati posebnu tablicu:  
+
+- preuzeti podatak o osobi koja je procelnik za tu ustrojstvenu jedinicu u akademskoj godini (istoj onoj za koju smo dohvatili podatke o izvodjacima) - za to moramo imati posebnu tablicu:  
 |UstrJedinica|AkadGodina|Procelnik|  
->- evidentirati procelnika kao nositelja
+- evidentirati procelnika kao nositelja
 
 **IZVOĐAC**
 
