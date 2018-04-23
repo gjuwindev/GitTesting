@@ -2,7 +2,7 @@
 _ODABRANA OPCIJA (19.4.2018. Tanja)_
 
 
-### DOHVAT PODATAKA O SVIM ISPITNIM ROKOVIMA, ZA SVE GODINE  
+### 1. DOHVAT PODATAKA O SVIM ISPITNIM ROKOVIMA, ZA SVE GODINE  
 **POPIS PREDMETA**  
 URL: `nastavniprogram/predmet/akademskagodina/{akademskaGodina}`  
 
@@ -52,7 +52,7 @@ XML za unos:
 ```
 
 
-### DOHVAT REZULTATA USMENOG ISPITA ZA DOHVACENE ROKOVE
+### 2. DOHVAT REZULTATA USMENOG ISPITA ZA DOHVACENE ROKOVE
 
 **POPIS REZULTATA USMENOG ISPITA**  
 URL: `ispit/usmeni/{sifraPredmetaUISVU}/{godinaRok}/{mjesecRok}/{danRok}`  
@@ -103,15 +103,13 @@ XML za unos:
 ```
 
 
-### EVIDENTIRATI ZA SVE STUDENTE KOJI NEMAJU KONACNU OCJENU
+### 3. EVIDENTIRATI ZA SVE STUDENTE KOJI NEMAJU KONACNU OCJENU
     1.	ocjena = 0 (nula)
     2.	datum ispita = datum roka (obavezno tocka iza godine!)
     3.	ocjenjivac = nositelj
 
 
-### DOHVAT PODATAKA O PREDMETU U AKADEMSKOJ GODINI > OZNAKA NOSITELJA
-
- -  ako NEMA NOSITELJA
+### 4. DOHVAT PODATAKA O PREDMETU U AKADEMSKOJ GODINI > OZNAKA NOSITELJA
 
 **PREDMET U AKADEMSKOJ GODINI**
 
@@ -152,6 +150,25 @@ Rezultat:
 </predmetUAkademskojGodini>
 ```
 
-### ZAKLJUCAVANJE SVIH NEZAKLJUCANIH ROKOVA
+### 5. AKO NEMA EVIDENTIRANOG NOSITELJA - ocjenjivac je procelnik
 
-### IZVJESTAJ/POPIS ROKOVA KOJI NISU MOGLI BITI ZAKLJUCANI
+- ustrojstvena jedinica koja izvodi kolegij 
+- popis procelnika (oznakaOsobe) po godinama za ustrojstvene jedinice (mimo REST API-ja)
+
+**DETALJNI PODACI O PREDMETU**
+
+URL: `nastavniprogram/predmet/sifra/{sifraPredmetaUIsvu}`
+
+HTTP metoda: `GET`
+
+Opis: Vraća detaljne podatke o predmetu.
+
+Reprezentacija: `application/vnd.isvu.predmet.xml-v1.1+xml`
+
+Rezultat:
+`<ustrojstvenaJedinicaKojojPripada sifra="100073">`
+
+
+### 6. ZAKLJUCAVANJE SVIH NEZAKLJUCANIH ROKOVA
+
+### 7. IZVJESTAJ/POPIS ROKOVA KOJI NISU MOGLI BITI ZAKLJUCANI
