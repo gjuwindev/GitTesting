@@ -200,7 +200,7 @@ Rezultat:
 |UstrJedinica|AkadGodina|Procelnik|  
 - evidentirati procelnika kao nositelja
 
-**IZVOĐAC**
+**IZVODJAC**
 
 URL: `nastavniprogram/predmet/akademskagodina/{akademskaGodina}/sifra/{sifraPredmeta}/semestar/{semestar}/izvedba/{izvedbaPredmeta}/komponenta/{komponentaPredmeta}/vrstanastave/{vrstaNastave}/izvodjac`
 
