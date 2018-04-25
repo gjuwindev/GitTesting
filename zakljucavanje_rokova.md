@@ -33,6 +33,34 @@ Reprezentacija: `application/vnd.isvu.ispitniroklista.xml-v1.1+xml`
 
 
 
+**DETALJNI PODACI O ISPITNOM ROKU**    
+URL: `nastavniplan/rok/predmet/{sifraPredmetaUIsvu}/{godina}/{mjesec}/{dan}/vrstaroka/{vrstaRoka}`
+
+HTTP metoda: `GET`
+
+Opis: Dohvat detaljnih podataka o ispitnom roku po datumu i vrsti roka. 
+
+Reprezentacija: `application/vnd.isvu.ispitnirok.xml-v1.0+xml`
+
+Rezultat: 
+```{xml}
+<ispitniRok>
+  <predmet sifra="36534">
+    <naziv>Djelovanje carskog i kraljevskog središnjeg povjerenstva u Istri i Dalmaciji 1850.-1918.</naziv>
+  </predmet>
+  <rok>
+    <datumRoka>13.09.2010.</datumRoka>
+    <vrstaRoka oznaka="R">redovni rok</vrstaRoka>
+    <pismeni>DA</pismeni>
+    <vrijemePrijaveDo>07.09.2010. 23:59</vrijemePrijaveDo>
+    <vrijemeOdjaveDo>10.09.2010. 12:00</vrijemeOdjaveDo>
+    <zakljucan>DA</zakljucan>
+    <objavljeniRezultatiPismenog>NE</objavljeniRezultatiPismenog>
+    <obavijesti />
+  </rok>
+</ispitniRok>
+```
+
 **ZAKLJUCAVANJE ROKA**  
 URL: `ispit/rok/{godinaRok}/{mjesecRok}/{danRok}/predmet/{sifraPredmetaUIsvu}/vrstaroka/{vrstaRoka}/zahtjevzazakljucavanje`  
 
